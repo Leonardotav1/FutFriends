@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e5a01;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+input, button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
+.participantes {
+    margin-top: 10px;
+    text-align: left;
+}
+.participantes div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #e9ecef;
+    padding: 5px;
+    margin: 3px 0;
+    border-radius: 4px;
+}
+.remover{
+    background-color: #c82333;
+    border: none;
+    cursor: pointer;
+    width: 4vw;
+}
+.removerPartida {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 2px 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.remover:hover, .removerPartida:hover {
+    background-color: #c82333;
+}
+.presente {
+    width: 7vw;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+.presente.confirmado {
+    background-color: #17a2b8;
+}
+.btnParticip{
+    background-color:#007bff;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    padding: 2px 5px;
+    cursor: pointer;
+}

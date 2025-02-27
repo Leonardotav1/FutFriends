@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Partidas</title>
+    <link rel="stylesheet" href="../Styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciador de Partidas</h1>
+        <form id="formPartida">
+            <input type="text" id="titulo" placeholder="Título da Partida" required>
+            <input type="text" id="local" placeholder="Local" required>
+            <input type="datetime-local" id="dataHora" required>
+            <button type="submit">Criar Partida</button>
+        </form>
+        <div id="listaPartidas"></div>
+    </div>
+    <script src="../Scripts/script.js"></script>
+</body>
+</html>
