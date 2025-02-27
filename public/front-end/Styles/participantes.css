@@ -1,0 +1,109 @@
+/* Reset básico para remover margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+/* Estilização geral da página */
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Caixa central para os participantes */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Título estilizado */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* Lista de participantes */
+#listaParticipantes {
+    list-style: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* Estilo de cada participante */
+#listaParticipantes li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: background 0.3s;
+    font-size: 18px;
+}
+
+/* Efeito ao passar o mouse nos participantes */
+#listaParticipantes li:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Botão para voltar */
+.btn-voltar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    background: #ff9800;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+/* Efeito hover no botão */
+.btn-voltar:hover {
+    background: #e68900;
+}
+.presenca {
+    background: #28a745;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.presenca.confirmado {
+    background: #17a2b8;
+}
+
+.presenca:hover {
+    background: #218838;
+}
+
+.remover{
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+#InfPrt{
+    margin-bottom:10px ;
+}
